@@ -2,7 +2,7 @@ defmodule Validator do
   # regex
   @extension_whitelist ~w(.jpg .jpeg .gif .png .pdf)
 
-  # the extensions are string, we then receive booleans ("true" or "false")
+  # the extensions are a string, we then receive booleans ("true" or "false")
   @type file_type() :: String.t()
   @spec valid?(file_type()) :: boolean()
 
