@@ -35,5 +35,5 @@ Application/Validation usage:
 ```
 $ iex -S mix
 iex> Validator.valid?("filename.jpg")
-  ...
+ ... returns a boolean
 ```
