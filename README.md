@@ -26,7 +26,7 @@ Basic console usage:
 $ iex -S mix
 
 iex> file = "lib/test/myfile.test.png"
-...
+  ...
 iex> Path.extname(file)
 ".png"
 ```
@@ -35,5 +35,5 @@ Application/Validation usage:
 ```
 $ iex -S mix
 iex> Validator.valid?("filename.jpg")
- ...
+  ...
 ```
